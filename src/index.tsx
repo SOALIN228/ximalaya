@@ -4,15 +4,6 @@
  * Time: 23:45
  * Desc:
  */
-import React from 'react';
-import {Text, View} from 'react-native';
+import Navigator from '@/navigator/index';
 
-const Index = () => {
-  return (
-    <View>
-      <Text>123</Text>
-    </View>
-  );
-};
-
-export default Index;
+export default Navigator;
